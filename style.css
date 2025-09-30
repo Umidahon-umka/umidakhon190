@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    background-color: #202C36;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2B3844;
+}
+
+.gray {
+    background-color: #2B3844;
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+.background {
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.parent-cards {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    justify-content: center;
+}
+
+.card-country {
+    width: 264px;
+    height: 250px;
+    background-color: #2B3844;
+    text-align: center;
+}
+
+.card-country img {
+    width: 100%;
+}
+
+.title-country {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    color: white;
+    margin-top: 22px;
+}
+
+@media(max-width:834px) {
+
+
+    .gray {
+        width: 90%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+    .gray input {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+}
+
+@media(max-width:400px) {
+    .h1 {
+        font-size: 14px;
+    }
+
+    .h2 {
+        font-size: 12px;
+    }
+
+    .gray {
+        height: 48px;
+
+    }
+}
